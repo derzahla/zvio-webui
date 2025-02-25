@@ -1,5 +1,3 @@
-Forked from https://github.com/truenas/webui
-
 TrueNAS WebUI
 ================
 ![CI](https://github.com/truenas/webui/workflows/CI/badge.svg?branch=master)

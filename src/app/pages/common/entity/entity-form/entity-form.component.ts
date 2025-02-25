@@ -340,6 +340,8 @@ export class EntityFormComponent implements OnInit, OnDestroy, OnChanges, AfterV
               this.wsResponse = res;
             }
 
+            console.log(this.wsResponse);
+
             if (typeof (this.conf.resourceTransformIncomingRestData) !== 'undefined') {
               this.wsResponse = this.conf.resourceTransformIncomingRestData(this.wsResponse);
             }

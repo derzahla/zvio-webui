@@ -53,8 +53,8 @@ export class EmailComponent implements OnDestroy {
 
         const product_type = window.localStorage.getItem('product_type');
         const mailObj = {
-          subject: 'TrueNAS Test Message',
-          text: `This is a test message from TrueNAS ${product_type}.`,
+          subject: 'zVaultIO Test Message',
+          text: `This is a test message from zVaultIO.`,
         };
         this.ws.call('system.info').subscribe((sysInfo) => {
           value.pass = value.pass || this.entityEdit.data.pass;
@@ -285,7 +285,7 @@ export class EmailComponent implements OnDestroy {
             window.addEventListener('message', doAuth, false);
 
             function doAuth(message) {
-              if (message.origin !== 'https://www.truenas.com') {
+              if (message.origin !== 'https://www.zvault.io') {
                 return;
               }
               if (message.data.oauth_portal) {

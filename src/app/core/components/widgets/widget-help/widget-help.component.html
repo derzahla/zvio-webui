@@ -14,7 +14,7 @@
           </button>&nbsp;&nbsp;
           <h3 class="mat-card-title-text">
             <div class="card-title-text">
-              {{'TrueNAS Help' | translate}}
+              {{'zVault Help' | translate}}
             </div>
           </h3>
         </mat-toolbar-row>
@@ -34,13 +34,13 @@
           </div>
           <div *ngIf="systemType !== 'ENTERPRISE'" id="open-source">
             TrueNAS {{systemType}} {{ helptext.opensourceA | translate }}
-            <a href="https://github.com/freenas/" target="_blank" class="external-link">{{ helptext.opensourceB | translate }}</a>
+            <a href="https://github.com/zvaultio/" target="_blank" class="external-link">{{ helptext.opensourceB | translate }}</a>
             {{ helptext.opensourceC | translate }}
           </div>
         </div>
         <div id="footer">
           <div fxFlex="45%" fxFlex.xs="100" class="copyright-txt">TrueNAS {{ systemType }}® © {{copyrightYear}} -
-            <a href="http://www.ixsystems.com" target="_blank" title="iXsystems, Inc." class="external-link">
+            <a href="http://zvault.io" target="_blank" title="zVaultIO" class="external-link">
               iXsystems, Inc</a>.
           </div>
         </div>

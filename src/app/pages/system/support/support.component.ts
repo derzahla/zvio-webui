@@ -116,7 +116,7 @@ export class SupportComponent implements OnInit {
     } else if (sys_product.includes('MINI-R')) {
       this.product_image = '/servers/MINI-R.png';
     } else {
-      this.product_image = 'ix-original.png';
+      this.product_image = 'logo-light-320x320.png';
     }
   }
 
@@ -141,7 +141,7 @@ export class SupportComponent implements OnInit {
         this.product_image = 'freenas_mini_xl_cropped.png';
         break;
       default:
-        this.product_image = 'ix-original.png';
+        this.product_image = 'logo-light-320x320.png';
         break;
     }
   }

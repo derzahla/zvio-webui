@@ -1,7 +1,7 @@
 import { T } from '../../translate-marker';
 
 export default {
-  cardtitle_placeholder: T('Proactive Support can notify iXsystems by email when TrueNAS hardware conditions require attention.'),
+  cardtitle_placeholder: T('Proactive Support can notify zVaultIO by email when zVaultIO hardware conditions require attention.'),
 
   primary_contact_placeholder: T('Primary Contact'),
 
@@ -31,6 +31,6 @@ export default {
   secondary_phone_placeholder: T('Phone'),
   secondary_phone_tooltip: T(''),
 
-  enabled_placeholder: T('Enable automatic support alerts to iXsystems (Silver/Gold support only)'),
+  enabled_placeholder: T('Enable automatic support alerts to zVaultIO (Silver/Gold support only)'),
   enabled_tooltip: T(''),
 };

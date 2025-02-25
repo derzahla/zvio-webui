@@ -64,7 +64,7 @@ export const helptext_sharing_nfs = {
   tooltip_hosts: T(
     'Space-delimited list of allowed IP addresses\
  <i>(192.168.1.10)</i> or hostnames\
- <i>(www.freenas.com)</i>. Leave empty to allow all.',
+ <i>(zvault.io)</i>. Leave empty to allow all.',
   ),
 
   label_maproot_user: T('Maproot User'),

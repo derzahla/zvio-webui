@@ -196,7 +196,7 @@ export class TnSupportComponent implements OnInit, OnDestroy {
         name: helptext.update_license.user_guide_button,
         function: () => {
           // TODO: Need updated address before release
-          window.open('https://www.truenas.com/docs/hub/');
+          window.open('https://zvault.io/docs/hub/');
         },
       },
       {

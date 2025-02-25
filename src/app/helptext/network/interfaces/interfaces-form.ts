@@ -61,7 +61,7 @@ export default {
 
   alias_address_placeholder: T('IP Address'),
   alias_address_tooltip: T('Define an alias for the interface \
- on this TrueNAS controller. The alias can be an IPv4 or IPv6 \
+ on this zVaultIO controller. The alias can be an IPv4 or IPv6 \
  address.'),
 
   alias_netmaskbit_placeholder: T('Netmask'),
@@ -105,11 +105,11 @@ export default {
 
   failover_alias_address_placeholder: T('IP Address'),
   failover_alias_address_tooltip: T('Alias for the identical interface \
- on the other TrueNAS controller. The alias can be an IPv4 or IPv6 address.'),
+ on the other zVaultIO controller. The alias can be an IPv4 or IPv6 address.'),
 
   failover_virtual_alias_address_placeholder: T('Virtual IP Address (Failover Address)'),
   failover_virtual_alias_address_tooltip: T('Define an alias that can \
- connect to the interface on either TrueNAS controller. This address \
+ connect to the interface on either zVaultIO controller. This address \
  remains active if a Controller failover occurs.'),
 
   failover_alias_set_error: T('An IP address must be provided for\

@@ -43,7 +43,7 @@ export class ReportsDashboardComponent implements OnInit, OnDestroy, /* HandleCh
   scrolledIndex = 0;
   isFooterConsoleOpen;
 
-  product_type: string = window.localStorage['product_type'];
+  product_type: string = 'zVault-13.0-U6.2';
   retroLogo: string;
 
   multipathTitles: any = {};

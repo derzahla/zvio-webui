@@ -9,7 +9,7 @@ export const helptext_system_update = {
 
   scaleUpdate: {
     title: T('Updating to SCALE'),
-    warning: T(`<p>TrueNAS SCALE migrations are still in development and can risk configuration errors or even data loss.
+    warning: T(`<p>zVaultIO SCALE migrations are still in development and can risk configuration errors or even data loss.
     Please back up any critical data to an external system before attempting the migration. Migrating to SCALE is intended to be a one-time event.
     Reverting back to CORE after migration is unsupported.</p>
 
@@ -26,12 +26,12 @@ export const helptext_system_update = {
     </p>
 
     <p>For more details, please see the
-    <a href="https://www.truenas.com/docs/scale/gettingstarted/migratingfromcore/" target="_blank" style="text-decoration: underline;">CORE migration documentation</a>.
+    <a href="https://zvault.io/docs/scale/gettingstarted/migratingfromcore/" target="_blank" style="text-decoration: underline;">CORE migration documentation</a>.
     Please ensure the system is prepared for the migration and review the system configuration post-migration
      to immediately resolve any configuration issues that might have occurred.</p>`),
-    haWarning: T(`Migrating a High Availability (HA) system from TrueNAS CORE to TrueNAS SCALE requires the entire
+    haWarning: T(`Migrating a High Availability (HA) system from zVaultIO CORE to zVaultIO SCALE requires the entire
     system go offline for some time to migrate and synchronize both controllers on the new operating system.
-    It is strongly recommended to contact iXsystems Support for assistance with the migration process.
+    It is strongly recommended to contact zVaultIO Support for assistance with the migration process.
     Before migrating, please back up any critical data and schedule the system outage accordingly.
     In the unlikely event of an error during migration, please be prepared to activate a previous system boot environment.`),
   },
@@ -96,7 +96,7 @@ export const helptext_system_update = {
 
   non_ha_download_msg: T('Continue with download?'),
   ha_download_msg: T('Upgrades both controllers. Files are downloaded to the Active Controller\
- and then transferred to the Standby Controller. The upgrade process starts concurrently on both TrueNAS Controllers.\
+ and then transferred to the Standby Controller. The upgrade process starts concurrently on both zVaultIO Controllers.\
  Continue with download?'),
   non_ha_confirm_msg: T('Apply updates and reboot system after downloading.'),
   ha_confirm_msg: T('Check the box for full upgrade. Leave unchecked to download only.'),
@@ -105,6 +105,6 @@ export const helptext_system_update = {
   non_ha_pending_msg: T('The system will reboot and be briefly unavailable while applying updates. \
 Apply updates and reboot?'),
   ha_pending_msg: T('Upgrades both controllers. Files are downloaded to the Active Controller \
-and then transferred to the Standby Controller. The upgrade process starts concurrently on both TrueNAS Controllers.'),
+and then transferred to the Standby Controller. The upgrade process starts concurrently on both zVaultIO Controllers.'),
 
 };

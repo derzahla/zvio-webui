@@ -42,7 +42,7 @@ export class WidgetSysInfoComponent extends WidgetComponent implements OnInit, O
   manufacturer = '';
   buildDate: string;
   loader = false;
-  product_type: string = window.localStorage['product_type'];
+  product_type: string = 'zVault-13.0-U6.2';
   systemLogo: any;
   isFN = false;
   isUpdateRunning = false;
@@ -285,7 +285,7 @@ export class WidgetSysInfoComponent extends WidgetComponent implements OnInit, O
       this.product_image = '/servers/MINI-R.png';
       this.product_model = 'MINI-R';
     } else {
-      this.product_image = 'ix-original.svg';
+      this.product_image = 'logo-light.svg';
     }
   }
 

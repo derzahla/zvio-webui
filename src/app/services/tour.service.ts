@@ -137,7 +137,7 @@ export class TourService {
       id: 'hello-egret',
       showPrevButton: true,
       onEnd() {
-        self.snackBar.open(T('Awesome! Now let\'s explore FreeNAS\'s cool features.'), T('close'), { duration: 5000 });
+        self.snackBar.open(T('Awesome! Now let\'s explore zVaultIO\'s cool features.'), T('close'), { duration: 5000 });
       },
       // onClose: function() {
       //   self.snackBar.open(T('You just closed User Tour!'), T('close'), { duration: 3000 });

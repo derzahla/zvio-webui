@@ -4,10 +4,10 @@ export default {
   copyright_year: '2020',
   dockerhost: T('Docker Host'),
 
-  ctrlr: T('TrueNAS controller'),
-  ctrlrs: T('TrueNAS controllers'),
-  Ctrlr: T('TrueNAS Controller'),
-  Ctrlrs: T('TrueNAS Controllers'),
+  ctrlr: T('zVaultIO controller'),
+  ctrlrs: T('zVaultIO controllers'),
+  Ctrlr: T('zVaultIO Controller'),
+  Ctrlrs: T('zVaultIO Controllers'),
   thisCtlr: T('This Controller'),
   unknownCtrl: T('The active controller cannot be detected.'),
 
@@ -31,7 +31,7 @@ export default {
     message: T('No logs are available for this task.'),
   },
 
-  ha_connecting_text: T('Waiting for active TrueNAS controller to come up...'),
+  ha_connecting_text: T('Waiting for active zVaultIO controller to come up...'),
 
   fieldset_general_options: T('General Options'),
   fieldset_other_options: T('Other Options'),

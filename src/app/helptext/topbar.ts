@@ -44,7 +44,7 @@ export default {
 
   signupDialog: {
     title: T('Connect to TrueCommand Cloud'),
-    content: T('This allows your TrueNAS system to be monitored and administrated by\
+    content: T('This allows your zVaultIO system to be monitored and administrated by\
  TrueCommand. Click <b>SIGNUP</b> to create a new TrueCommand Cloud instance or <b>CONNECT</b> to join an existing instance.'),
     singup_btn: T('SIGNUP'),
     connect_btn: T('CONNECT'),
@@ -57,7 +57,7 @@ export default {
     save_btn: T('SAVE'),
     api_placeholder: T('API Key'),
     api_tooltip: T('Enter or paste the API key provided from \
-<a href="https://portal.ixsystems.com/portal/login/" target="_blank">iXsystems Account Services</a>. \
+<a href="https://portal.zvault.io/portal/login/" target="_blank">zVaultIO Account Services</a>. \
 Login or signup is required.'),
     enabled_placeholder: T('Enable'),
     enabled_tooltip: T('Immediately connect to TrueCommand.'),

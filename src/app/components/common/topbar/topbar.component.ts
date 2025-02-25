@@ -63,7 +63,7 @@ export class TopbarComponent extends ViewControllerComponent implements OnInit, 
   is_ha = false;
   upgradeWaitingToFinish = false;
   pendingUpgradeChecked = false;
-  sysName = 'TrueNAS CORE';
+  sysName = 'zVault';
   hostname: string;
   showWelcome: boolean;
   checkin_remaining: any;
@@ -122,7 +122,7 @@ export class TopbarComponent extends ViewControllerComponent implements OnInit, 
         this.is_ha ? window.localStorage.setItem('alias_ips', 'show') : window.localStorage.setItem('alias_ips', '0');
         this.getHAStatus();
       });
-      this.sysName = 'TrueNAS ENTERPRISE';
+      this.sysName = 'zVault';
     } else {
       window.localStorage.setItem('alias_ips', '0');
       this.checkLegacyUISetting();

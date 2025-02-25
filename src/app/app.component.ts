@@ -30,7 +30,7 @@ import productText from './helptext/product';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  appTitle = 'TrueNAS';
+  appTitle = 'zVault';
   protected accountUserResource = 'account/users/1';
   protected user: any;
   product_type = '';
@@ -63,11 +63,11 @@ export class AppComponent {
     this.title.setTitle(product + ' - ' + window.location.hostname);
     if (window.localStorage.product_type) {
       const cachedType = window.localStorage['product_type'].toLowerCase();
-      const path = 'assets/images/truenas_' + cachedType + '_favicon.png';
+      const path = 'assets/images/logo-dark.svg';
       this.setFavicon(path);
     } else {
       ws.call('system.product_type').subscribe((res) => {
-        const path = 'assets/images/truenas_' + res.toLowerCase() + '_favicon.png';
+        const path = 'assets/images/logo-dark.svg';
         this.setFavicon(path);
       });
     }

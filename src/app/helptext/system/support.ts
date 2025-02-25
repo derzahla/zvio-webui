@@ -4,8 +4,8 @@ import { T } from 'app/translate-marker';
 export const helptext_system_support = {
   proactive: {
     title: T('Proactive Support'),
-    instructions: T('Silver / Gold Coverage Customers can enable iXsystems Proactive Support. This \
- automatically emails iXsystems when certain conditions occur on this TrueNAS system. The iX Support \
+    instructions: T('Silver / Gold Coverage Customers can enable zVaultIO Proactive Support. This \
+ automatically emails zVaultIO when certain conditions occur on this zVaultIO system. The zVaultIO Support \
  Team will promptly communicate with the Contacts saved below to quickly resolve any issue that may \
  have occurred on the system.'),
     primary_contact: T('Primary Contact'),
@@ -23,7 +23,7 @@ export const helptext_system_support = {
     sec_phone_placeholder: T('Phone Number'),
     sec_email_validation: [Validators.required, Validators.email],
 
-    enable_checkbox_placeholder: T('Enable iXsystems Proactive Support'),
+    enable_checkbox_placeholder: T('Enable zVaultIO Proactive Support'),
     save_button: T('Save'),
     dialog_title: T('Settings saved'),
     dialog_mesage: T('Successfully saved proactive support settings.'),
@@ -52,7 +52,7 @@ export const helptext_system_support = {
 
   cc: {
     placeholder: T('CC'),
-    tooltip: T('Email addresses to receive copies of iXsystems Support \
+    tooltip: T('Email addresses to receive copies of zVaultIO Support \
   messages about this issue. Use the format <i>name</i>@<i>domain.com</i>. \
   Separate entries by pressing <code>Enter</code>.'),
     err: T('Email addresses must be entered in the format \
@@ -136,8 +136,8 @@ export const helptext_system_support = {
 
   core_upgrade_license: {
     dialog_title: T('Add or Update a License'),
-    dialog_msg: T('To update the current software license or upgrade from TrueNAS Core® to TrueNAS \
- Enterprise®, copy the text of the TrueNAS license and paste it in this box.'),
+    dialog_msg: T('To update the current software license or upgrade from zVaultIO Core® to zVaultIO \
+ Enterprise®, copy the text of the zVaultIO license and paste it in this box.'),
   },
 
   is_production_checkbox: {
@@ -166,14 +166,18 @@ export const helptext_system_support = {
     message: T('Production status successfully updated'),
   },
 
-  FN_instructions: T('Search the <a href="https://ixsystems.atlassian.net/jira/software/c/projects/NAS/issues/" \
-   target="_blank">TrueNAS issue tracker</a> \
+  FN_instructions: T('Search the <a href="https://zvaultio.atlassian.net/jira/software/c/projects/NAS/issues/" \
+   target="_blank">zVaultIO issue tracker</a> \
    to ensure the issue has not already been reported before \
-   filing a bug report or feature request. If an issue has \
-   already been created, add a comment to the existing issue. \
-   Please visit the <a href="http://www.ixsystems.com/storage/" target="_blank"> \
-   iXsystems storage page</a> \
-   for enterprise-grade storage solutions and support.'),
+   filing a bug report or feature request. This is an open-source \
+   product, and support is currently only available through the \
+   open-source community. Here, you can connect with contributors \
+   and users for assistance, guidance, and collaboration. \
+   <br /> <br />\
+   If you are a business that offers FreeBSD and/or ZFS support \
+   to end users and would like to be listed as potentially \
+   able to offer enterprise support, reach out to us and we\'ll \
+   discuss adding a link to your company to this page.'),
 
   submitBtn: T('Submit'),
 

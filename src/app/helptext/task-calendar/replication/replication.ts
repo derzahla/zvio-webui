@@ -24,13 +24,13 @@ export default {
  created connection in <b>System > SSH Connections</b>.</li> \
  <li><i>SSH+NETCAT</i> uses SSH to establish a connection to the \
  destination system, then uses \
- <a href="https://github.com/freenas/py-libzfs" \
+ <a href="https://github.com/zvaultio/py-libzfs" \
  target="_blank">py-libzfs</a> to send an unencrypted data stream for \
- higher transfer speeds. This only works when replicating to a TrueNAS, \
- TrueNAS, or other system with <i>py-libzfs</i> installed.</li> \
+ higher transfer speeds. This only works when replicating to a zVaultIO, \
+ zVaultIO, or other system with <i>py-libzfs</i> installed.</li> \
  <li><i>LOCAL</i> efficiently replicates snapshots to another dataset on \
  the same system without using the network.</li> \
- <li><i>LEGACY</i> uses the legacy replication engine from TrueNAS 11.2 \
+ <li><i>LEGACY</i> uses the legacy replication engine from zVaultIO 11.2 \
  and earlier.</li></ul>'),
 
   ssh_credentials_placeholder: T('SSH Connection'),
@@ -202,7 +202,7 @@ clones and snapshots that match the specified naming schema.'),
   encryption_key_passphrase_placeholder: T('Passphrase'),
   encryption_key_passphrase_tooltip: T(''),
 
-  encryption_key_location_truenasdb_placeholder: T('Store Encryption key in Sending TrueNAS database'),
+  encryption_key_location_truenasdb_placeholder: T('Store Encryption key in Sending zVaultIO database'),
   encryption_key_location_truenasdb_tooltip: T(''),
 
   encryption_key_location_placeholder: T('Encryption Key Location in Target System'),

@@ -104,13 +104,13 @@
           </div></span>
 
           <div class="truecommand" *ngIf="tc_ip" (click)="gotoTC()">
-              <img id="truecommand-logo" src="assets/images/truecommand/truecommand-logo-mark-full-color-rgb.svg">
+              <img id="truecommand-logo" src="assets/images/logo.svg">
               <span class="truecommand-txt">TrueCommand IP: {{tc_ip}}</span>
           </div>
 
           <div class="copyright-line">
-            <span  class="copyright-txt">TrueNAS {{product_type}} ® © {{copyrightYear}} </span>
-            <img id="full-logo" (click)="openIX()" src="assets/images/ix_logo_full.png">
+            <span  class="copyright-txt">zVault.io ® © {{copyrightYear}} </span>
+            <img id="full-logo" (click)="openIX()" src="assets/images/logo-full-light-300x150.png">
           </div>
         </div>
         <div class="disconnected" [hidden]="connected() && logo_ready">

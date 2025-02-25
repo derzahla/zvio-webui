@@ -1,6 +1,6 @@
-### FreeNAS / TrueNAS Translations
+### zVault Translations
 
-Status of various languages supported by FreeNAS and TrueNAS.
+Status of various languages supported by zVault.
 
 As you update a target language, please make changes to this file, indicating its status and last updated date.
 

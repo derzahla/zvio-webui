@@ -56,7 +56,7 @@ export class SshConnectionsFormComponent {
               label: 'Manual',
               value: 'manual',
             }, {
-              label: 'Semi-automatic (TrueNAS only)',
+              label: 'Semi-automatic (zVaultIO only)',
               value: 'semiautomatic',
             },
           ],

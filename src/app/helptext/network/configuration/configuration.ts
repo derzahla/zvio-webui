@@ -7,7 +7,7 @@ export default {
   hostname_tooltip: T('System hostname.'),
 
   hostname_b_placeholder: T(`Hostname (${globalHelptext.Ctrlr} 2)`),
-  hostname_b_tooltip: T('Host name of second TrueNAS controller.'),
+  hostname_b_tooltip: T('Host name of second zVaultIO controller.'),
 
   hostname_virtual_placeholder: T('Hostname (Virtual)'),
   hostname_virtual_tooltip: T('When using a virtual host, this is also \

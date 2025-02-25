@@ -35,9 +35,9 @@ export class SystemProfileService extends BaseService {
   private buffer: CoreEvent[] = [];
   private emulateHardware?: InfoObject;
   private mini: InfoObject = {
-    version: 'TrueNAS-12.0-MASTER-202003160424',
+    version: 'zVault-12.0-MASTER-202003160424',
     buildtime: { $date: 1584373672000 },
-    hostname: 'truenas.local',
+    hostname: 'zvault.local',
     physmem: 8445599744,
     model: 'Intel(R) Core(TM) i3-2100T CPU @ 2.50GHz',
     cores: 4,

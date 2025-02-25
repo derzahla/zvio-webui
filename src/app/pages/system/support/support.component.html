@@ -41,7 +41,7 @@
       <app-proactive></app-proactive>
     </div>
     <div fxLayout="row" id="support_bottom-row">
-      <app-fn-support *ngIf="product_type === 'CORE'; else TNsupport"></app-fn-support>
+      <app-zv-support *ngIf="product_type === 'CORE'; else TNsupport"></app-zv-support>
       <ng-template #TNsupport>
         <app-tn-support></app-tn-support>
       </ng-template>

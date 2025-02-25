@@ -10,7 +10,7 @@ export const DefaultTheme = {
   name: 'ix-dark',
   label: 'iX Dark',
   labelSwatch: 'blue',
-  description: 'TrueNAS 12 default theme',
+  description: 'zVault 12 default theme',
   accentColors: ['blue', 'magenta', 'orange', 'cyan', 'yellow', 'violet', 'red', 'green'],
   primary: 'var(--blue)',
   topbar: '#111111',

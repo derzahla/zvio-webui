@@ -221,13 +221,13 @@ export class NavigationService {
     icon: 'perm_data_setting',
     state: 'systemprocesses',
   },
-  {
-    name: T('Guide'),
-    type: 'extLink',
-    tooltip: T('Guide'),
-    icon: 'info',
-    state: '',
-  },
+  // {
+  //   name: T('Guide'),
+  //   type: 'extLink',
+  //   tooltip: T('Guide'),
+  //   icon: 'info',
+  //   state: '',
+  // },
   ];
 
   // Icon menu TITLE at the very top of navigation.

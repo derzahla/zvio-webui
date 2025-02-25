@@ -1431,6 +1431,34 @@ $primary-dark: darken( map-get($md-primary, 500), 8% );
 
   }
 
+  app-zv-support {
+    .mat-card {
+      background-color: rgba(127,127,127,0.1);
+      margin: 30px 15px 5px 15px !important;
+    }
+    .mat-card-actions {
+      top: -40px;
+      position: relative;
+      width: 300px;
+    }
+    form {
+      margin-bottom: -40px;
+    }
+
+    @media screen and (max-width: 599px) {
+      .mat-card-actions {
+        top: 0;
+      }
+      .lowerme {
+        margin-top: 0 !important;
+      }
+      form {
+        margin-bottom: 4px;
+      }
+    }
+
+  }
+
   app-entity-dialog #tn_core_upgrade_license_message {
     margin-bottom: 8px;
   }
