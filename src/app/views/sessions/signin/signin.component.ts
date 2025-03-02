@@ -372,7 +372,7 @@ export class SigninComponent implements OnInit, OnDestroy, AfterViewInit {
   }
   successLogin() {
     this.snackBar.dismiss();
-    this.tokenObservable = this.ws.call('auth.generate_token', [300]).subscribe((result) => {
+    this.tokenObservable = this.ws.call('auth.generate_token', [600]).subscribe((result) => {
       if (result) {
         this.ws.token = result;
         this.redirect();
